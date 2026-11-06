@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum - Français à la carte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans leading-relaxed">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 py-6">
+        <div class="max-w-4xl mx-auto px-6 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-serif font-bold text-slate-900">
+                <span class="text-sky-800">Français</span> à la carte
+            </a>
+            <a href="index.html" class="text-sm font-semibold text-sky-800 hover:text-sky-900">
+                ← Zurück zur Startseite
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <article class="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200/80 prose prose-slate max-w-none">
+            
+            <h1 class="text-3xl font-serif font-bold text-slate-900 mb-6 pb-4 border-b border-slate-100">
+                Impressum
+            </h1>
+
+            <section class="mb-8">
+                <h2 class="text-xl font-semibold text-slate-900 mb-3">Angaben gemäß § 5 TMG / Gesetzliche Anbieterkennzeichnung</h2>
+                <p class="text-slate-600 mb-2"><strong>Français à la carte</strong></p>
+                <p class="text-slate-600">Inhaberin: Maud Chaumette</p>
+                <p class="text-slate-600">[Ihre Straße & Hausnummer]</p>
+                <p class="text-slate-600">[PLZ & Ort, Frankreich / Deutschland]</p>
+            </section>
+
+            <section class="mb-8">
+                <h2 class="text-xl font-semibold text-slate-900 mb-3">Kontakt</h2>
+                <p class="text-slate-600">Telefon: [Ihre Telefonnummer]</p>
+                <p class="text-slate-600">E-Mail: [Ihre E-Mail-Adresse]</p>
+            </section>
+
+            <section class="mb-8">
+                <h2 class="text-xl font-semibold text-slate-900 mb-3">Umsatzsteuer-ID / SIRET</h2>
+                <p class="text-slate-600">SIRET-Nummer (Frankreich): [SIRET-Nummer eintragen]</p>
+            </section>
+
+            <section class="mb-8">
+                <h2 class="text-xl font-semibold text-slate-900 mb-3">Verantwortlich für den Inhalt</h2>
+                <p class="text-slate-600">Maud Chaumette</p>
+                <p class="text-slate-600">[Adresse wie oben]</p>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-sm text-slate-500">
+        <p>© 2026 Français à la carte. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
